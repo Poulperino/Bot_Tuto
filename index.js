@@ -19,7 +19,7 @@ bot.on('message', async (msg) => {
         cmd = cmdArray[0]
         args = cmdArray.slice(1)
 
-        msg.channel.sen(cmd)
+        msg.channel.send(cmd)
     }
 });
 
