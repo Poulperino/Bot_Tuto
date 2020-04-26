@@ -14,6 +14,18 @@ bot.on('message', async (msg) => {
 });
 
 bot.on('message', async (msg) => {
+    if(msg.content == 'Vétusté') {
+        msg.channel.send('La vétustl est mère de sûreté')
+    }
+});
+
+bot.on('message', async (msg) => {
+    if(msg.content == 'fusions galactiques') {
+        msg.channel.send('boumboajfdsal')
+    }
+});
+
+bot.on('message', async (msg) => {
     if(msg.content.startsWith(config.prefix) && !msg.author.bot){
         cmdArray = msg.content.substring(1).split()
         cmd = cmdArray[0]
