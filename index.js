@@ -15,13 +15,19 @@ bot.on('message', async (msg) => {
 
 bot.on('message', async (msg) => {
     if(msg.content == 'Vétusté') {
-        msg.channel.send('La vétustl est mère de sûreté')
+        msg.channel.send('Daki Fucsy 59 = Lfvp Jgdnb 95')
     }
 });
 
 bot.on('message', async (msg) => {
     if(msg.content == 'fusions galactiques') {
-        msg.channel.send('boumboajfdsal')
+        msg.channel.send('https://sites.google.com/view/xueirtsym-neib-etis-nu/accueil')
+    }
+});
+
+bot.on('message', async (msg) => {
+    if(msg.content == 'poireau') {
+        msg.channel.send('https://sites.google.com/view/fondues-au-poireaux/accueil')
     }
 });
 
