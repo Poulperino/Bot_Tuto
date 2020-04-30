@@ -32,6 +32,24 @@ bot.on('message', async (msg) => {
 });
 
 bot.on('message', async (msg) => {
+    if(msg.content == 'Eyes glowing red in the dark on the ocean floor As the serpent awakes') {
+        msg.channel.send('https://sites.google.com/view/fusionsgalactiquesmgabadaboomd/accueil')
+    }
+});
+
+bot.on('message', async (msg) => {
+    if(msg.content == 'eyes glowing red in the dark on the ocean floor as the serpent awakes') {
+        msg.channel.send('https://sites.google.com/view/fusionsgalactiquesmgabadaboomd/accueil')
+    }
+});
+
+bot.on('message', async (msg) => {
+    if(msg.content == 'Powersnake') {
+        msg.channel.send('Rho quand même la chanson est plus épique que ça...')
+    }
+});
+
+bot.on('message', async (msg) => {
     if(msg.content.startsWith(config.prefix) && !msg.author.bot){
         cmdArray = msg.content.substring(1).split()
         cmd = cmdArray[0]
