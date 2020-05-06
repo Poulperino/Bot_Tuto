@@ -50,6 +50,12 @@ bot.on('message', async (msg) => {
 });
 
 bot.on('message', async (msg) => {
+    if(msg.content == '671') {
+        msg.channel.send('719 ! Bravo à toi ! Bon je pense que la chatte t es venue en aide à de nombreuses reprises parce qu un cerveau aussi inférieur que le tiens n aurait pu découvrir pareille machinerie tous seul. Je sais je peux pas faire les apostrophe parce que en code c est de la merde et que je sais pas comment faire ! Bon si jamais t as résolu ça avant la fin de ton armée bah courage pour la suite et sinon go se capter pour faire un jdr bientôt. Accessoirement te filer ton jeu bien mérité !')
+    }
+});
+
+bot.on('message', async (msg) => {
     if(msg.content.startsWith(config.prefix) && !msg.author.bot){
         cmdArray = msg.content.substring(1).split()
         cmd = cmdArray[0]
